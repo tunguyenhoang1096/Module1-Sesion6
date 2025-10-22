@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  background-color: rgb(202, 241, 241);
+  justify-content: center;
+  align-items: center;
+}
+.register-form {
+  background-color: white;
+  border: 8px solid gainsboro;
+  border-radius: 10px;
+  padding: 20px 30px;
+  width: 300px;
+}
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input {
+  display: block;
+  margin-bottom: 20px;
+  height: 30px;
+}
+button {
+  width: 100%;
+  background-color: rgb(64, 150, 248);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+}
