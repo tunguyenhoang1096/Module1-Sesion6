@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin-left: 20px;
+}
+body .component1,
+.component2,
+.component3 {
+  width: 50%;
+}
+body h2 {
+  border-left: 10px solid orange;
+  padding-left: 10px;
+  margin: 10px 0;
+}
+.component1 img {
+  width: 100%;
+}
+p {
+  padding: 10px 0;
+}
+p.bold {
+  font-weight: bold;
+}
+/*component1------*/
+.component2 .bgr--img {
+  height: 1000px;
+  position: relative;
+  background: url(https://plus.unsplash.com/premium_photo-1759855991081-2de429450962?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687)
+    center center / cover;
+}
+.component2 .bgr--img p {
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  font-size: larger;
+  padding: 0 20px;
+}
+.component3 {
+  border: 1px solid #dadada;
+  border-radius: 5px;
+}
+.component3 p {
+  padding: 0;
+}
+.component3 .item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #dadada;
+}
+.component3 .style {
+  background-color: #e7f1ff;
+  color: #5682e8;
+}
