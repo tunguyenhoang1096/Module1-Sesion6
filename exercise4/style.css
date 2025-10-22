@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #4cb04f;
+  text-align: center;
+  padding: 10px 0;
+}
+header h1 {
+  color: white;
+}
+header a {
+  padding: 10px;
+}
+/* header--- */
+main {
+  display: flex;
+}
+main .left-folder {
+  border: 1px solid #d8d8d8;
+  background-color: #fafafa;
+  margin: 10px;
+  width: 300px;
+}
+main .left-folder h3 {
+  margin: 20px 10px;
+}
+main .left-folder ul {
+  margin-left: 50px;
+}
+main .news {
+  width: 100%;
+  padding: 10px 0;
+}
+.news img {
+  height: 200px;
+}
+/* main----- */
+footer {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
